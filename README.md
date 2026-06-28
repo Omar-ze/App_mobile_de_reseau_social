@@ -1,6 +1,6 @@
-# Chat App - Spring Boot + MySQL + Expo React Native
+# Application de chat  - Spring Boot + React Native
 
-Application de chat avec appels vidéo en temps réel.
+ Application mobile de chat avec appels audio/vidéo, développée avec React Native , Spring Boot pour la partie de backend et MySQL. en temps réel.
 
 ## Architecture
 
@@ -130,19 +130,3 @@ Le serveur Spring Boot ne fait que la **signalisation** (échange d'adresses).
 La vidéo et l'audio passent **directement** entre les deux téléphones (WebRTC P2P).
 
 ---
-
-## API REST
-
-| Méthode | URL | Description |
-|---------|-----|-------------|
-| POST | /api/auth/register | Créer un compte |
-| POST | /api/auth/login | Se connecter |
-| GET | /api/auth/me | Profil utilisateur |
-| GET | /api/chat/users | Liste des utilisateurs |
-| GET | /api/chat/conversations | Mes conversations |
-| POST | /api/chat/conversations | Nouvelle conversation |
-| GET | /api/chat/conversations/{id}/messages | Messages |
-| POST | /api/chat/conversations/{id}/messages | Envoyer un message |
-| WS | /ws/signal?token=... | Signalisation WebRTC |
-| GET | /call-page?... | Page HTML d'appel vidéo |
-
