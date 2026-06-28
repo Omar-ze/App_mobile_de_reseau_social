@@ -1,4 +1,4 @@
-# Application mobile de chat : React Native/Spring Boot
+# Application mobile de réseau social : React Native/Spring Boot
 
  Application mobile de Chat en texte avec appels audio/vidéo en temps réel, développée avec React Native pour la partie de frontend , Spring Boot pour la partie de backend et MySQL. .
 
@@ -7,7 +7,7 @@
 ```
 chatapp-project/
 ├── backend/          # Spring Boot (Java 21) + MySQL
-└── mobile/           # Expo React Native (Expo Go compatible)
+└── mobile/           #  React Native 
 ```
 
 ## Pré-requis
