@@ -1,6 +1,6 @@
-# Application de chat  - Spring Boot + React Native
+# Application mobile de chat : React Native/Spring Boot
 
- Application mobile de chat avec appels audio/vidéo, développée avec React Native , Spring Boot pour la partie de backend et MySQL. en temps réel.
+ Application mobile de Chat en texte avec appels audio/vidéo en temps réel, développée avec React Native pour la partie de frontend , Spring Boot pour la partie de backend et MySQL. .
 
 ## Architecture
 
@@ -96,9 +96,9 @@ Faites cela sur les DEUX téléphones avec deux comptes différents.
 
 ## 4. Tester les appels vidéo
 
-1. Téléphone A : créer un compte (ex: alice / alice@test.com / password123)
-2. Téléphone B : créer un compte (ex: bob / bob@test.com / password123)
-3. Téléphone A → onglet Contacts → appuyer sur Bob → 💬 pour ouvrir le chat
+1. Téléphone A : créer un compte (ex: omar / omar@test.com / password123)
+2. Téléphone B : créer un compte (ex: ali / ali@test.com / password123)
+3. Téléphone A → onglet Contacts → appuyer sur ali→ 💬 pour ouvrir le chat
 4. Dans le chat → appuyer sur 📹 (vidéo) ou 📞 (audio)
 5. Téléphone B → une fenêtre "Appel entrant" apparaît → 📹 pour accepter
 6. L'appel vidéo démarre entre les deux téléphones !
