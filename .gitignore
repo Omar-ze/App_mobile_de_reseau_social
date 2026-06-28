@@ -1,0 +1,16 @@
+# Backend
+backend/target/
+backend/.mvn/
+*.class
+*.jar
+*.war
+
+# Mobile
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/.env
+
+# General
+.DS_Store
+*.log
